@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciEkle">
+
+    <EditText
+        android:id="@+id/adttxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="ADINIZ"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/soyadtxt2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/soyadtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="SOYADINIZ"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/telefontxt2"
+        app:layout_constraintStart_toStartOf="@+id/adttxt2"
+        app:layout_constraintTop_toBottomOf="@+id/adttxt2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/telefontxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:hint="TELEFON NUMARINIZ"
+        android:inputType="phone"
+        android:maxLength="11"
+        app:layout_constraintBottom_toTopOf="@+id/emailtxt2"
+        app:layout_constraintStart_toStartOf="@+id/soyadtxt2"
+        app:layout_constraintTop_toBottomOf="@+id/soyadtxt2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/emailtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="EMAİL ADRESİNİZ"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="@+id/telefontxt2"
+        app:layout_constraintTop_toBottomOf="@+id/telefontxt2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="135dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="236dp"
+        android:onClick="KullaniciEklebtn"
+        android:text="KAYDET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

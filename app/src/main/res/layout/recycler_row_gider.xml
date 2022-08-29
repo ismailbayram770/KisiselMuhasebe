@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="#FB827A"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gidermiktartxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="12dp"
+        android:text="miktar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/gidermiktartxt2"
+        app:layout_constraintTop_toBottomOf="@+id/gidermiktartxt2">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/gidermiktartxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="44dp"
+        android:text="Gider Miktar"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/giderkategoritxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="12dp"
+        android:text="kategori"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/giderkategoritxt2"
+        app:layout_constraintStart_toStartOf="@+id/giderkategoritxt2"
+        app:layout_constraintTop_toBottomOf="@+id/giderkategoritxt2"></TextView>
+
+    <TextView
+        android:id="@+id/giderkategoritxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Gider Kategori"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/giderkategoritxt3"
+        app:layout_constraintStart_toEndOf="@+id/gidermiktartxt2"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/giderkategoritxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Gider Tarih"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/gidertarihtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="60dp"
+        android:text="tarih"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/giderkategoritxt3"
+        app:layout_constraintTop_toBottomOf="@+id/giderkategoritxt3"></TextView>
+
+    <Button
+        android:id="@+id/gidersilbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="GiderSilme"
+        android:text="Gideri Sil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/alinanborcidtxt"
+        android:layout_width="27dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="16dp"
+        android:text="id"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gidersilbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

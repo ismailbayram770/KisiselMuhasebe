@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="#D7FBAD"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/recycler_row_miktartxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="miktar"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_kategoritxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="kategori"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_tarihtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="tarih"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="GelirSilme"
+        android:text="Gelir Sil"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/geliridtxt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="id"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

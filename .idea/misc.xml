@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.175" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable/action_bar_color.xml" value="0.2203125" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.175" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2203125" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2203125" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/drawable/side_nav_bar.xml" value="0.2203125" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_alinan_borc.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_alinan_borc_ekle.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_gelir_ekle.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_gider_ekle.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_kullanici_bilgilerini_guncelleme.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_kullanici_ekle.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_kullanici_kayit.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_splash_screen.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/activity_verilen_borc_ekle.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/app_bar_main.xml" value="0.1816123188405797" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_alinan_borclar.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_gelir_ekle.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_grafikler.xml" value="0.18" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_kullanici_bilgileri.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_kullanici_kayit.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/fragment_verilen_borc.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/nav_header_main.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/recycler_row.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/recycler_row_alinanborclar.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/recycler_row_gelir.xml" value="0.22" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/recycler_row_gider.xml" value="0.25" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/layout/recycler_row_verilenborclar.xml" value="0.2" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
+        <entry key="..\:/Users/ISMAILBAYRAM/AndroidStudioProjects/KisiselMuhasebe/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kisiselmuhasebe.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery"
+            app:destination="@id/nav_gallery" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_alinanborclar"
+            app:destination="@id/nav_alinanborclar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.kisiselmuhasebe.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_nav_gallery_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.kisiselmuhasebe.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_alinanborclar"
+        android:name="com.example.kisiselmuhasebe.AlinanBorclarFragment"
+        android:label="Alınan Borçlar"
+        tools:layout="@layout/fragment_alinan_borclar" >
+        <action
+            android:id="@+id/action_nav_alinanborclar_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_verilenborclar"
+        android:name="com.example.kisiselmuhasebe.VerilenBorcFragment"
+        android:label="Verilen Borçlar"
+        tools:layout="@layout/fragment_verilen_borc" />
+    <fragment
+        android:id="@+id/nav_grafikler"
+        android:name="com.example.kisiselmuhasebe.GrafiklerFragment"
+        android:label="Grafikler"
+        tools:layout="@layout/fragment_grafikler" />
+    <fragment
+        android:id="@+id/nav_kullanicibilgileri"
+        android:name="com.example.kisiselmuhasebe.KullaniciBilgileriFragment"
+        android:label="Kullanici Bilgileri"
+        tools:layout="@layout/fragment_kullanici_bilgileri" />
+</navigation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="?android:attr/listChoiceIndicatorMultiple"
+            android:title="ANA SAYFA" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Gelirler" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="?attr/editTextBackground"
+            android:title="Giderler" />
+        <item
+            android:id="@+id/nav_alinanborclar"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Alınan Borclar" />
+        <item
+            android:id="@+id/nav_verilenborclar"
+            android:icon="?attr/editTextBackground"
+            android:title="Verilen  Borclar" />
+        <item
+            android:id="@+id/nav_grafikler"
+            android:icon="?android:attr/listChoiceIndicatorSingle"
+            android:title="Grafikler" />
+        <item
+            android:id="@+id/nav_kullanicibilgileri"
+            android:icon="@drawable/user"
+            android:title="Kullanıcı Bilgileri" />
+    </group>
+</menu>

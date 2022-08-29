@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kisiselmuhasebe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KisiselMuhasebe">
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".KullaniciBilgileriniGuncelleme"
+            android:exported="false" />
+        <activity
+            android:name=".KullaniciEkle"
+            android:exported="false" />
+        <activity
+            android:name=".VerilenBorcEkle"
+            android:exported="false" />
+        <activity
+            android:name=".AlinanBorcEkle"
+            android:exported="false" />
+        <activity
+            android:name=".GiderEkle"
+            android:exported="false" />
+        <activity
+            android:name=".GelirEkle"
+            android:exported="false" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.KisiselMuhasebe.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

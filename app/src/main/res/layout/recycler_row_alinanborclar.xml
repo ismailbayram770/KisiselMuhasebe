@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="5dp"
+    android:background="#F6B4B0"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/recycler_row_alinanborcmiktartxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="miktar"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_borcalinantarihtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="alınan tarih"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:id="@+id/recycler_row_borcverilecektarihtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="verilecek tarih"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="AlinanBorcSilme"
+        android:text="Borç Ödendi" />
+
+    <TextView
+        android:id="@+id/alinanborcidtxt"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="id"
+        android:visibility="invisible" />
+
+</LinearLayout>
